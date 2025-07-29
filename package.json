@@ -1,0 +1,13 @@
+{
+  "name": "mandala-balances",
+  "version": "1.0.0",
+  "description": "Query Polkadot blockchain for account balances",
+  "main": "query-balances.js",
+  "scripts": {
+    "start": "node query-balances.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.11.2"
+  },
+  "type": "module"
+}
